@@ -31,7 +31,7 @@
     "memberLevel": "銀級會員",
     "leftSales": 139727,
     "rightSales": 54704,
-    "parent": 0
+    "parent": 1
   },
   {
     "key": 4,
@@ -42,7 +42,7 @@
     "memberLevel": "銀級會員",
     "leftSales": 83743,
     "rightSales": 141319,
-    "parent": 0
+    "parent": 1
   },
   {
     "key": 5,
@@ -53,7 +53,7 @@
     "memberLevel": "鑽石會員",
     "leftSales": 100469,
     "rightSales": 144480,
-    "parent": 0
+    "parent": 2
   },
   {
     "key": 6,
@@ -64,7 +64,7 @@
     "memberLevel": "鉑金級會員",
     "leftSales": 186964,
     "rightSales": 74688,
-    "parent": 0
+    "parent": 3
   },
   {
     "key": 7,
@@ -75,7 +75,7 @@
     "memberLevel": "鉑金級會員",
     "leftSales": 110021,
     "rightSales": 148569,
-    "parent": 0
+    "parent": 3
   },
   {
     "key": 8,
@@ -86,7 +86,7 @@
     "memberLevel": "銀級會員",
     "leftSales": 140060,
     "rightSales": 66407,
-    "parent": 0
+    "parent": 4
   },
   {
     "key": 9,
@@ -97,7 +97,7 @@
     "memberLevel": "鑽石會員",
     "leftSales": 65633,
     "rightSales": 56353,
-    "parent": 0
+    "parent": 4
   },
   {
     "key": 10,
@@ -108,7 +108,7 @@
     "memberLevel": "鉑金級會員",
     "leftSales": 69494,
     "rightSales": 175338,
-    "parent": 0
+    "parent": 4
   }
 ]
 }
