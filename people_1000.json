@@ -1,104 +1,105 @@
-{ "class": "go.TreeModel",
+{
+  "class": "go.TreeModel",
   "nodeDataArray": [
-  {
-    "key": 1,
-    "name": "Stella Payne Diaz",
-    "title": "CEO",
-    "dept": "Management",
-    "pic": "1.jpg",
-    "email": "sdiaz@example.com",
-    "phone": "(234) 555-6789"
-    "parent": 0
-  },
-  {
-    "key": 2,
-    "name": "Jamie Diaz",
-    "title": "Business Analyst",
-    "dept": "Engineering",
-    "pic": "8.jpg",
-    "email": "jdiaz2@example.com",
-    "phone": "(428) 342-2679",
-    "parent": 1
-  },
-  {
-    "key": 3,
-    "name": "Ivy Hernandez",
-    "title": "VP Marketing/Sales",
-    "dept": "Management",
-    "pic": "3.jpg",
-    "email": "ihernandez3@example.com",
-    "phone": "(423) 438-9279",
-    "parent": 1
-  },
-  {
-    "key": 4,
-    "name": "Lotta Aiken",
-    "title": "DevOps Engineer",
-    "dept": "Data",
-    "pic": "14.jpg",
-    "email": "laiken4@example.com",
-    "phone": "(425) 659-5557",
-    "parent": 2
-  },
-  {
-    "key": 5,
-    "name": "Drew Hernandez",
-    "title": "Process",
-    "dept": "Engineering",
-    "pic": "5.jpg",
-    "email": "dhernandez5@example.com",
-    "phone": "(420) 981-6514",
-    "parent": 2
-  },
-  {
-    "key": 6,
-    "name": "Riley Garcia",
-    "title": "VP Engineering",
-    "dept": "Product",
-    "pic": "12.jpg",
-    "email": "rgarcia6@example.com",
-    "phone": "(818) 470-1711",
-    "parent": 3
-  },
-  {
-    "key": 7,
-    "name": "Evan Stubadd",
-    "title": "Testing",
-    "dept": "Sales",
-    "pic": "10.jpg",
-    "email": "estubadd7@example.com",
-    "phone": "(843) 833-6925",
-    "parent": 3
-  },
-  {
-    "key": 8,
-    "name": "Parker Flaming",
-    "title": "VP Marketing/Sales",
-    "dept": "Data",
-    "pic": "8.jpg",
-    "email": "pflaming8@example.com",
-    "phone": "(991) 496-2307",
-    "parent": 4
-  },
-  {
-    "key": 9,
-    "name": "Skyler Ligori",
-    "title": "Testing",
-    "dept": "Engineering",
-    "pic": "15.jpg",
-    "email": "sligori9@example.com",
-    "phone": "(850) 573-3664",
-    "parent": 4
-  },
-  {
-    "key": 10,
-    "name": "Meg Wellback",
-    "title": "Data Scientist",
-    "dept": "Engineering",
-    "pic": "3.jpg",
-    "email": "mwellback10@example.com",
-    "phone": "(823) 850-3803",
-    "parent": 5
-  }
-]
+    {
+      "key": 1,
+      "name": "Stella Payne Diaz",
+      "title": "CEO",
+      "dept": "Management",
+      "pic": "1.jpg",
+      "email": "sdiaz@example.com",
+      "phone": "(234) 555-6789",
+      "parent": 0
+    },
+    {
+      "key": 2,
+      "name": "Jamie Diaz",
+      "title": "Business Analyst",
+      "dept": "Engineering",
+      "pic": "8.jpg",
+      "email": "jdiaz2@example.com",
+      "phone": "(428) 342-2679",
+      "parent": 1
+    },
+    {
+      "key": 3,
+      "name": "Ivy Hernandez",
+      "title": "VP Marketing/Sales",
+      "dept": "Management",
+      "pic": "3.jpg",
+      "email": "ihernandez3@example.com",
+      "phone": "(423) 438-9279",
+      "parent": 1
+    },
+    {
+      "key": 4,
+      "name": "Lotta Aiken",
+      "title": "DevOps Engineer",
+      "dept": "Data",
+      "pic": "14.jpg",
+      "email": "laiken4@example.com",
+      "phone": "(425) 659-5557",
+      "parent": 2
+    },
+    {
+      "key": 5,
+      "name": "Drew Hernandez",
+      "title": "Process",
+      "dept": "Engineering",
+      "pic": "5.jpg",
+      "email": "dhernandez5@example.com",
+      "phone": "(420) 981-6514",
+      "parent": 2
+    },
+    {
+      "key": 6,
+      "name": "Riley Garcia",
+      "title": "VP Engineering",
+      "dept": "Product",
+      "pic": "12.jpg",
+      "email": "rgarcia6@example.com",
+      "phone": "(818) 470-1711",
+      "parent": 3
+    },
+    {
+      "key": 7,
+      "name": "Evan Stubadd",
+      "title": "Testing",
+      "dept": "Sales",
+      "pic": "10.jpg",
+      "email": "estubadd7@example.com",
+      "phone": "(843) 833-6925",
+      "parent": 3
+    },
+    {
+      "key": 8,
+      "name": "Parker Flaming",
+      "title": "VP Marketing/Sales",
+      "dept": "Data",
+      "pic": "8.jpg",
+      "email": "pflaming8@example.com",
+      "phone": "(991) 496-2307",
+      "parent": 4
+    },
+    {
+      "key": 9,
+      "name": "Skyler Ligori",
+      "title": "Testing",
+      "dept": "Engineering",
+      "pic": "15.jpg",
+      "email": "sligori9@example.com",
+      "phone": "(850) 573-3664",
+      "parent": 4
+    },
+    {
+      "key": 10,
+      "name": "Meg Wellback",
+      "title": "Data Scientist",
+      "dept": "Engineering",
+      "pic": "3.jpg",
+      "email": "mwellback10@example.com",
+      "phone": "(823) 850-3803",
+      "parent": 5
+    }
+  ]
 }
