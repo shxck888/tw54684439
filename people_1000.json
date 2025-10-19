@@ -27,7 +27,7 @@
     "pic": "3.jpg",
     "email": "ihernandez3@example.com",
     "phone": "(423) 438-9279",
-    "parent": 1
+    "parent": 3
   },
   {
     "key": 4,
@@ -37,7 +37,7 @@
     "pic": "14.jpg",
     "email": "laiken4@example.com",
     "phone": "(425) 659-5557",
-    "parent": 1
+    "parent": 4
   },
   {
     "key": 5,
@@ -47,7 +47,7 @@
     "pic": "5.jpg",
     "email": "dhernandez5@example.com",
     "phone": "(420) 981-6514",
-    "parent": 1
+    "parent": 7
   },
   {
     "key": 6,
@@ -57,7 +57,7 @@
     "pic": "12.jpg",
     "email": "rgarcia6@example.com",
     "phone": "(818) 470-1711",
-    "parent": 4
+    "parent": 2
   },
   {
     "key": 7,
@@ -77,7 +77,7 @@
     "pic": "8.jpg",
     "email": "pflaming8@example.com",
     "phone": "(991) 496-2307",
-    "parent": 7
+    "parent": 6
   },
   {
     "key": 9,
@@ -87,7 +87,7 @@
     "pic": "15.jpg",
     "email": "sligori9@example.com",
     "phone": "(850) 573-3664",
-    "parent": 6
+    "parent": 8
   },
   {
     "key": 10,
