@@ -1,20 +1,114 @@
 { "class": "go.TreeModel",
   "nodeDataArray": [
-    {"key":1, "name":"Stella Payne Diaz", "title":"CEO", "dept": "Management", "pic":"1.jpg", "email": "sdiaz@example.com", "phone": "(234) 555-6789" },
-    {"key":2, "name":"Luke Warm", "title":"VP Marketing/Sales", "dept": "Management", "pic":"2.jpg", "email": "lwarm@example.com", "phone": "(234) 555-6789", "parent":1},
-    {"key":3, "name":"Meg Meehan Hoffa", "title":"Sales", "dept": "Sales", "pic":"3.jpg", "email": "mhoffa@example.com", "phone": "(234) 555-6789", "parent":2},
-    {"key":4, "name":"Peggy Flaming", "title":"VP Engineering", "dept": "Management", "pic":"4.jpg", "email": "pflaming@example.com", "phone": "(234) 555-6789", "parent":1},
-    {"key":5, "name":"Saul Wellingood", "title":"Manufacturing", "dept": "Production", "pic":"5.jpg", "email": "swellingood@example.com", "phone": "(234) 555-6789", "parent":4},
-    {"key":6, "name":"Al Ligori", "title":"Marketing", "dept": "Marketing", "pic":"6.jpg", "email": "aligori@example.com", "phone": "(234) 555-6789", "parent":2},
-    {"key":7, "name":"Dot Stubadd", "title":"Sales Rep", "dept": "Sales", "pic":"7.jpg", "email": "dstubadd@example.com", "phone": "(234) 555-6789", "parent":3},
-    {"key":8, "name":"Les Ismore", "title":"Project Mgr", "dept": "Production", "pic":"8.jpg", "email": "lismore@example.com", "phone": "(234) 555-6789", "parent":5},
-    {"key":9, "name":"April Lynn Parris", "title":"Events Mgr", "dept": "Marketing", "pic":"9.jpg", "email": "aparris@example.com", "phone": "(234) 555-6789", "parent":6},
-    {"key":10, "name":"Xavier Breath", "title":"Engineering", "dept": "Engineering", "pic":"10.jpg", "email": "xbreath@example.com", "phone": "(234) 555-6789", "parent":4},
-    {"key":11, "name":"Anita Hammer", "title":"Process", "dept": "Production", "pic":"11.jpg", "email": "ahammer@example.com", "phone": "(234) 555-6789", "parent":5},
-    {"key":12, "name":"Billy Aiken", "title":"Software", "dept": "Engineering", "pic":"12.jpg", "email": "baiken@example.com", "phone": "(234) 555-6789", "parent":10},
-    {"key":13, "name":"Stan Wellback", "title":"Testing", "dept": "Engineering", "pic":"13.jpg", "email": "swellback@example.com", "phone": "(234) 555-6789", "parent":10},
-    {"key":14, "name":"Marge Innovera", "title":"Hardware", "dept": "Engineering", "pic":"14.jpg", "email": "minnovera@example.com", "phone": "(234) 555-6789", "parent":10},
-    {"key":15, "name":"Evan Elpus", "title":"Quality", "dept": "Production", "pic":"15.jpg", "email": "eelpus@example.com", "phone": "(234) 555-6789", "parent":5},
-    {"key":16, "name":"Lotta B. Essen", "title":"Sales Rep", "dept": "Sales", "pic":"16.jpg", "email": "lessen@example.com", "phone": "(234) 555-6789", "parent":3}
-  ]
+  {
+    "key": 1,
+    "name": "曾國城",
+    "memberId": "TW54684001",
+    "joinDate": "2022-03-25",
+    "unit": "單位2",
+    "memberLevel": "金級會員",
+    "leftSales": 138194,
+    "rightSales": 89226,
+    "parent": 0
+  },
+  {
+    "key": 2,
+    "name": "李大仁",
+    "memberId": "TW54684002",
+    "joinDate": "2022-05-07",
+    "unit": "單位1",
+    "memberLevel": "鉑金級會員",
+    "leftSales": 124610,
+    "rightSales": 125542,
+    "parent": 0
+  },
+  {
+    "key": 3,
+    "name": "吳宗憲",
+    "memberId": "TW54684003",
+    "joinDate": "2023-04-25",
+    "unit": "單位2",
+    "memberLevel": "銀級會員",
+    "leftSales": 139727,
+    "rightSales": 54704,
+    "parent": 0
+  },
+  {
+    "key": 4,
+    "name": "侯佩岑",
+    "memberId": "TW54684004",
+    "joinDate": "2024-10-24",
+    "unit": "單位3",
+    "memberLevel": "銀級會員",
+    "leftSales": 83743,
+    "rightSales": 141319,
+    "parent": 0
+  },
+  {
+    "key": 5,
+    "name": "張惠妹",
+    "memberId": "TW54684005",
+    "joinDate": "2021-04-10",
+    "unit": "單位3",
+    "memberLevel": "鑽石會員",
+    "leftSales": 100469,
+    "rightSales": 144480,
+    "parent": 0
+  },
+  {
+    "key": 6,
+    "name": "陳小芳",
+    "memberId": "TW54684006",
+    "joinDate": "2022-04-25",
+    "unit": "單位3",
+    "memberLevel": "鉑金級會員",
+    "leftSales": 186964,
+    "rightSales": 74688,
+    "parent": 0
+  },
+  {
+    "key": 7,
+    "name": "王小明",
+    "memberId": "TW54684007",
+    "joinDate": "2021-12-24",
+    "unit": "單位3",
+    "memberLevel": "鉑金級會員",
+    "leftSales": 110021,
+    "rightSales": 148569,
+    "parent": 0
+  },
+  {
+    "key": 8,
+    "name": "張惠妹",
+    "memberId": "TW54684008",
+    "joinDate": "2024-03-27",
+    "unit": "單位1",
+    "memberLevel": "銀級會員",
+    "leftSales": 140060,
+    "rightSales": 66407,
+    "parent": 0
+  },
+  {
+    "key": 9,
+    "name": "曾國城",
+    "memberId": "TW54684009",
+    "joinDate": "2023-10-09",
+    "unit": "單位1",
+    "memberLevel": "鑽石會員",
+    "leftSales": 65633,
+    "rightSales": 56353,
+    "parent": 0
+  },
+  {
+    "key": 10,
+    "name": "張惠妹",
+    "memberId": "TW54684010",
+    "joinDate": "2022-01-02",
+    "unit": "單位1",
+    "memberLevel": "鉑金級會員",
+    "leftSales": 69494,
+    "rightSales": 175338,
+    "parent": 0
+  }
+]
 }
