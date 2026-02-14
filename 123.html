@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>全日年菜送貨導航清單</title>
+    <style>
+        body { font-family: -apple-system, sans-serif; background-color: #f0f2f5; padding: 10px; margin: 0; }
+        .header { background: #1a237e; color: white; padding: 20px; text-align: center; margin-bottom: 10px; }
+        .origin-info { background: #e8eaf6; padding: 10px; font-size: 0.9em; text-align: center; color: #1a237e; border-bottom: 2px solid #1a237e; }
+        .section-header { background: #ff9800; color: white; padding: 12px; border-radius: 5px; margin: 20px 0 10px 0; font-weight: bold; font-size: 1.2em; text-align: center; }
+        .section-afternoon { background: #d32f2f; }
+        .card { background: white; border-radius: 12px; padding: 15px; margin: 12px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border-left: 8px solid #ccc; }
+        .am-card { border-left-color: #ff9800; }
+        .pm-card { border-left-color: #d32f2f; }
+        .step { font-weight: bold; font-size: 0.9em; margin-bottom: 5px; color: #555; display: flex; justify-content: space-between; }
+        .name { font-size: 1.4em; font-weight: bold; color: #333; margin-bottom: 5px; }
+        .address { font-size: 1em; color: #444; margin: 10px 0; line-height: 1.5; background: #f9f9f9; padding: 10px; border-radius: 5px; border: 1px solid #eee; }
+        .btn-group { display: flex; gap: 10px; margin-top: 15px; flex-wrap: wrap; }
+        .btn { flex: 1; text-align: center; padding: 16px; border-radius: 10px; text-decoration: none; font-weight: bold; min-width: 120px; font-size: 1.1em; display: flex; align-items: center; justify-content: center; gap: 5px; }
+        .btn-call { background-color: #007AFF; color: white; }
+        .btn-map { background-color: #34C759; color: white; }
+        .phone-label { font-size: 0.7em; background: rgba(255,255,255,0.2); padding: 2px 5px; border-radius: 3px; margin-right: 3px; }
+    </style>
+</head>
+<body>
+
+<div class="header">
+    <h1>🗓️ 全日送貨導航清單</h1>
+    <p>點擊藍色撥號 ➔ 抵達前聯絡<br>點擊綠色導航 ➔ 前往下一站</p>
+</div>
+
+<div class="origin-info">
+    🚩 出發起點：海之星 (基隆市中正區環港街72號)
+</div>
+
+<div class="section-header">☀️ 上午送貨路線</div>
+
+<div class="card am-card">
+    <div class="step"><span>AM 第 1 站</span><span>安樂區</span></div>
+    <div class="name">葉澐諼</div>
+    <div class="address">基隆市安樂區基金一路214號2樓</div>
+    <div class="btn-group">
+        <a href="tel:0938698380" class="btn btn-call">📞 撥打電話</a>
+        <a href="https://www.google.com/maps/search/?api=1&query=基隆市安樂區基金一路214號2樓" class="btn btn-map">📍 導航前往</a>
+    </div>
+</div>
+
+<div class="card am-card">
+    <div class="step"><span>AM 第 2 站</span><span>中山區</span></div>
+    <div class="name">陳先生</div>
+    <div class="address">基隆市中山區復興街16巷5號之1 2樓</div>
+    <div class="btn-group">
+        <a href="tel:0930976705" class="btn btn-call">📞 撥打電話</a>
+        <a href="https://www.google.com/maps/search/?api=1&query=基隆市中山區復興街16巷5號之1+2樓" class="btn btn-map">📍 導航前往</a>
+    </div>
+</div>
+
+<div class="card am-card">
+    <div class="step"><span>AM 第 3 站</span><span>中山區</span></div>
+    <div class="name">蔡麗娟</div>
+    <div class="address">基隆市中山區西定路104巷21號</div>
+    <div class="btn-group">
+        <a href="tel:0922590399" class="btn btn-call">📞 撥打電話</a>
+        <a href="https://www.google.com/maps/search/?api=1&query=中山區西定路104巷21號" class="btn btn-map">📍 導航前往</a>
+    </div>
+</div>
+
+<div class="section-header section-afternoon">🌙 下午送貨路線 (指定順序)</div>
+
+<div class="card pm-card">
+    <div class="step"><span>PM 第 1 站</span><span>正濱</span></div>
+    <div class="name">江小姐</div>
+    <div class="address">基隆市中正區正濱路116巷7弄14號3樓</div>
+    <div class="btn-group">
+        <a href="tel:0982300069" class="btn btn-call">📞 撥打電話</a>
+        <a href="https://www.google.com/maps/search/?api=1&query=基隆市中正區正濱路116巷7弄14號3樓" class="btn btn-map">📍 導航前往</a>
+    </div>
+</div>
+
+<div class="card pm-card">
+    <div class="step"><span>PM 第 2 站</span><span>觀海街</span></div>
+    <div class="name">徐樂友</div>
+    <div class="address">基隆市中正區觀海街76號1樓</div>
+    <div class="btn-group">
+        <a href="tel:0916578618" class="btn btn-call"><span class="phone-label">1</span>📞 撥打</a>
+        <a href="tel:0988013378" class="btn btn-call"><span class="phone-label">2</span>📞 撥打</a>
+        <a href="https://www.google.com/maps/search/?api=1&query=基隆市中正區觀海街76號1樓" class="btn btn-map">📍 導航</a>
+    </div>
+</div>
+
+<div class="card pm-card">
+    <div class="step"><span>PM 第 3 站</span><span>新豐街 (碧海晴天)</span></div>
+    <div class="name">李谷瀚</div>
+    <div class="address">基隆市新豐街288號7樓碧海晴天社區</div>
+    <div class="btn-group">
+        <a href="tel:0920148986" class="btn btn-call"><span class="phone-label">1</span>📞 撥打</a>
+        <a href="tel:0987833094" class="btn btn-call"><span class="phone-label">2</span>📞 撥打</a>
+        <a href="https://www.google.com/maps/search/?api=1&query=基隆市新豐街288號7樓碧海晴天社區" class="btn btn-map">📍 導航</a>
+    </div>
+</div>
+
+<div class="card pm-card">
+    <div class="step"><span>PM 第 4 站</span><span>新豐街</span></div>
+    <div class="name">李峰誠</div>
+    <div class="address">基隆市中正區新豐街333巷2號1樓</div>
+    <div class="btn-group">
+        <a href="tel:0920080919" class="btn btn-call">📞 撥打電話</a>
+        <a href="https://www.google.com/maps/search/?api=1&query=基隆市中正區新豐街333巷2號1樓" class="btn btn-map">📍 導航前往</a>
+    </div>
+</div>
+
+<div class="card pm-card">
+    <div class="step"><span>PM 第 5 站</span><span>深溪路</span></div>
+    <div class="name">歐陽秉昕</div>
+    <div class="address">基隆市信義區深溪路36巷82號6樓</div>
+    <div class="btn-group">
+        <a href="tel:0912145797" class="btn btn-call"><span class="phone-label">1</span>📞 撥打</a>
+        <a href="tel:0936166585" class="btn btn-call"><span class="phone-label">2</span>📞 撥打</a>
+        <a href="https://www.google.com/maps/search/?api=1&query=基隆市信義區深溪路36巷82號6樓" class="btn btn-map">📍 導航</a>
+    </div>
+</div>
+
+<div class="card pm-card">
+    <div class="step"><span>PM 第 6 站</span><span>深澳坑</span></div>
+    <div class="name">江瑞華</div>
+    <div class="address">基隆市信義區深奧坑路204號</div>
+    <div class="btn-group">
+        <a href="tel:0910219697" class="btn btn-call"><span class="phone-label">1</span>📞 撥打</a>
+        <a href="tel:0933224199" class="btn btn-call"><span class="phone-label">2</span>📞 撥打</a>
+        <a href="https://www.google.com/maps/search/?api=1&query=基隆市信義區深奧坑路204號" class="btn btn-map">📍 導航</a>
+    </div>
+</div>
+
+<div class="card pm-card">
+    <div class="step"><span>PM 第 7 站</span><span>瑞芳市區</span></div>
+    <div class="name">胡志強</div>
+    <div class="address">新北市瑞芳區三爪子坑路13巷141號2樓</div>
+    <div class="btn-group">
+        <a href="tel:0981711720" class="btn btn-call"><span class="phone-label">1</span>📞 撥打</a>
+        <a href="tel:0970800768" class="btn btn-call"><span class="phone-label">2</span>📞 撥打</a>
+        <a href="https://www.google.com/maps/search/?api=1&query=新北市瑞芳區三爪子坑路新峰里13巷141號2樓" class="btn btn-map">📍 導航</a>
+    </div>
+</div>
+
+<div class="card pm-card">
+    <div class="step"><span>PM 第 8 站</span><span>安樂區</span></div>
+    <div class="name">陳麗真</div>
+    <div class="address">基隆市安樂區基金一路121巷19之4號1樓</div>
+    <div class="btn-group">
+        <a href="tel:0936857199" class="btn btn-call"><span class="phone-label">1</span>📞 撥打</a>
+        <a href="tel:0925052890" class="btn btn-call"><span class="phone-label">2</span>📞 撥打</a>
+        <a href="https://www.google.com/maps/search/?api=1&query=基隆市安樂區基金一路121巷19之4號一樓" class="btn btn-map">📍 導航</a>
+    </div>
+</div>
+
+<div class="card pm-card">
+    <div class="step"><span>PM 第 9 站</span><span>瑞芳十分 (終點)</span></div>
+    <div class="name">潘靜</div>
+    <div class="address">瑞芳區靜安路四段90號</div>
+    <div class="btn-group">
+        <a href="tel:0912899616" class="btn btn-call"><span class="phone-label">1</span>📞 撥打</a>
+        <a href="tel:0932262603" class="btn btn-call"><span class="phone-label">2</span>📞 撥打</a>
+        <a href="https://www.google.com/maps/search/?api=1&query=瑞芳區靜安路四段90號" class="btn btn-map">📍 導航</a>
+    </div>
+</div>
+
+</body>
+</html>
