@@ -3,167 +3,182 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>全日年菜送貨導航清單</title>
+    <title>海之星：淡季穩定客源策略計畫書</title>
+    <script src="https://cdn.tailwindcss.com"></script>
     <style>
-        body { font-family: -apple-system, sans-serif; background-color: #f0f2f5; padding: 10px; margin: 0; }
-        .header { background: #1a237e; color: white; padding: 20px; text-align: center; margin-bottom: 10px; }
-        .origin-info { background: #e8eaf6; padding: 10px; font-size: 0.9em; text-align: center; color: #1a237e; border-bottom: 2px solid #1a237e; }
-        .section-header { background: #ff9800; color: white; padding: 12px; border-radius: 5px; margin: 20px 0 10px 0; font-weight: bold; font-size: 1.2em; text-align: center; }
-        .section-afternoon { background: #d32f2f; }
-        .card { background: white; border-radius: 12px; padding: 15px; margin: 12px 0; box-shadow: 0 4px 6px rgba(0,0,0,0.1); border-left: 8px solid #ccc; }
-        .am-card { border-left-color: #ff9800; }
-        .pm-card { border-left-color: #d32f2f; }
-        .step { font-weight: bold; font-size: 0.9em; margin-bottom: 5px; color: #555; display: flex; justify-content: space-between; }
-        .name { font-size: 1.4em; font-weight: bold; color: #333; margin-bottom: 5px; }
-        .address { font-size: 1em; color: #444; margin: 10px 0; line-height: 1.5; background: #f9f9f9; padding: 10px; border-radius: 5px; border: 1px solid #eee; }
-        .btn-group { display: flex; gap: 10px; margin-top: 15px; flex-wrap: wrap; }
-        .btn { flex: 1; text-align: center; padding: 16px; border-radius: 10px; text-decoration: none; font-weight: bold; min-width: 120px; font-size: 1.1em; display: flex; align-items: center; justify-content: center; gap: 5px; }
-        .btn-call { background-color: #007AFF; color: white; }
-        .btn-map { background-color: #34C759; color: white; }
-        .phone-label { font-size: 0.7em; background: rgba(255,255,255,0.2); padding: 2px 5px; border-radius: 3px; margin-right: 3px; }
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;700&display=swap');
+        body {
+            font-family: 'Noto Sans TC', sans-serif;
+            background-color: #f8fafc;
+        }
+        .gradient-bg {
+            background: linear-gradient(135deg, #1e40af 0%, #0369a1 100%);
+        }
+        .card {
+            transition: transform 0.2s;
+        }
+        .card:hover {
+            transform: translateY(-4px);
+        }
+        .highlight-text {
+            color: #ef4444;
+            font-weight: bold;
+        }
     </style>
 </head>
-<body>
+<body class="text-slate-800">
 
-<div class="header">
-    <h1>🗓️ 全日送貨導航清單</h1>
-    <p>點擊藍色撥號 ➔ 抵達前聯絡<br>點擊綠色導航 ➔ 前往下一站</p>
-</div>
+    <!-- Header -->
+    <header class="gradient-bg text-white py-12 px-4 text-center">
+        <h1 class="text-3xl md:text-4xl font-bold mb-4">海之星淡季穩定客源策略</h1>
+        <p class="text-lg opacity-90">從「高知名度」邁向「高回訪率」的增長路徑</p>
+    </header>
 
-<div class="origin-info">
-    🚩 出發起點：海之星 (基隆市中正區環港街72號)
-</div>
+    <main class="max-w-4xl mx-auto px-4 py-8">
+        
+        <!-- 核心目標區塊 -->
+        <section class="bg-white rounded-2xl shadow-lg p-6 mb-8 border-l-8 border-blue-600">
+            <h2 class="text-xl font-bold mb-4 flex items-center">
+                <span class="mr-2">🎯</span> 核心策略目標
+            </h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6 items-center">
+                <div>
+                    <p class="text-lg mb-2">目標不只是「新客」，而是 <span class="highlight-text underline">提升回訪頻率</span></p>
+                    <div class="bg-blue-50 p-4 rounded-lg">
+                        <p class="text-sm text-blue-800 font-bold italic">「如果客人原本一年來 2 次 → 變成 4 次，營業額理論上成長接近一倍！」</p>
+                    </div>
+                </div>
+                <div class="flex flex-col space-y-2">
+                    <div class="flex items-center justify-between bg-slate-100 p-3 rounded shadow-sm">
+                        <span>目前頻率</span>
+                        <span class="font-bold">2 次/年</span>
+                    </div>
+                    <div class="flex items-center justify-between bg-green-100 p-3 rounded shadow-sm border border-green-300">
+                        <span>預期目標</span>
+                        <span class="font-bold text-green-700">4 次/年 (⬆️ 100%)</span>
+                    </div>
+                </div>
+            </div>
+        </section>
 
-<div class="section-header">☀️ 上午送貨路線</div>
+        <!-- 八大策略卡片 -->
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            
+            <!-- 策略 1 -->
+            <div class="card bg-white p-6 rounded-xl shadow-md border border-slate-100">
+                <div class="text-blue-600 text-2xl mb-2">🏠</div>
+                <h3 class="text-xl font-bold mb-3">一、建立「在地客食堂」</h3>
+                <p class="text-slate-600 text-sm mb-4">推動「海之星在地卡」，讓附近居民把這裡當作平日吃飯首選。</p>
+                <ul class="text-sm space-y-2">
+                    <li class="flex items-start">✅ <span class="ml-2"><b>對象：</b>在地居民與鄰近工作者</span></li>
+                    <li class="flex items-start">✅ <span class="ml-2"><b>品項：</b>炒飯/麵、炒青菜、海瓜子等基礎熱炒</span></li>
+                    <li class="flex items-start">✅ <span class="ml-2"><b>優勢：</b>出餐快、價格實惠、平日限定</span></li>
+                </ul>
+            </div>
 
-<div class="card am-card">
-    <div class="step"><span>AM 第 1 站</span><span>安樂區</span></div>
-    <div class="name">葉澐諼</div>
-    <div class="address">基隆市安樂區基金一路214號2樓</div>
-    <div class="btn-group">
-        <a href="tel:0938698380" class="btn btn-call">📞 撥打電話</a>
-        <a href="https://www.google.com/maps/search/?api=1&query=基隆市安樂區基金一路214號2樓" class="btn btn-map">📍 導航前往</a>
-    </div>
-</div>
+            <!-- 策略 2 -->
+            <div class="card bg-white p-6 rounded-xl shadow-md border border-slate-100">
+                <div class="text-blue-600 text-2xl mb-2">🍱</div>
+                <h3 class="text-xl font-bold mb-3">二、平日超值套餐 (週一~四)</h3>
+                <p class="text-slate-600 text-sm mb-4">降低點餐決策成本，適合小家庭與上班族小聚。</p>
+                <div class="bg-slate-50 p-3 rounded text-xs space-y-1">
+                    <div class="flex justify-between"><span>雙人套餐</span><span class="font-bold text-blue-700">$699</span></div>
+                    <div class="flex justify-between"><span>三人套餐</span><span class="font-bold text-blue-700">$999</span></div>
+                    <div class="flex justify-between"><span>四人套餐</span><span class="font-bold text-blue-700">$1299</span></div>
+                </div>
+                <p class="mt-3 text-xs text-slate-500 italic">包含：小卷、燙蝦、海瓜子、肉類熱炒等精選好菜。</p>
+            </div>
 
-<div class="card am-card">
-    <div class="step"><span>AM 第 2 站</span><span>中山區</span></div>
-    <div class="name">陳先生</div>
-    <div class="address">基隆市中山區復興街16巷5號之1 2樓</div>
-    <div class="btn-group">
-        <a href="tel:0930976705" class="btn btn-call">📞 撥打電話</a>
-        <a href="https://www.google.com/maps/search/?api=1&query=基隆市中山區復興街16巷5號之1+2樓" class="btn btn-map">📍 導航前往</a>
-    </div>
-</div>
+            <!-- 策略 3 -->
+            <div class="card bg-white p-6 rounded-xl shadow-md border border-slate-100">
+                <div class="text-blue-600 text-2xl mb-2">📅</div>
+                <h3 class="text-xl font-bold mb-3">三、平日主題日活動</h3>
+                <p class="text-slate-600 text-sm mb-4">給客人「平日非來不可」的理由。</p>
+                <div class="space-y-3">
+                    <div class="border-l-4 border-orange-400 pl-3">
+                        <p class="text-sm font-bold">週二｜爆炒日</p>
+                        <p class="text-xs text-slate-500">避風塘/三杯/鹹酥系列，指定菜色百元驚喜價。</p>
+                    </div>
+                    <div class="border-l-4 border-yellow-400 pl-3">
+                        <p class="text-sm font-bold">週三｜啤酒日</p>
+                        <p class="text-xs text-slate-500">啤酒買三送一，提升客單價並帶動下班聚會氣氛。</p>
+                    </div>
+                </div>
+            </div>
 
-<div class="card am-card">
-    <div class="step"><span>AM 第 3 站</span><span>中山區</span></div>
-    <div class="name">蔡麗娟</div>
-    <div class="address">基隆市中山區西定路104巷21號</div>
-    <div class="btn-group">
-        <a href="tel:0922590399" class="btn btn-call">📞 撥打電話</a>
-        <a href="https://www.google.com/maps/search/?api=1&query=中山區西定路104巷21號" class="btn btn-map">📍 導航前往</a>
-    </div>
-</div>
+            <!-- 策略 4 -->
+            <div class="card bg-white p-6 rounded-xl shadow-md border border-slate-100">
+                <div class="text-blue-600 text-2xl mb-2">🦀</div>
+                <h3 class="text-xl font-bold mb-3">四、每日漁獲視覺營銷</h3>
+                <p class="text-slate-600 text-sm mb-4">透過 FB/IG 強力展示當日新鮮力量。</p>
+                <div class="flex space-x-2 overflow-x-auto py-2">
+                    <div class="flex-shrink-0 w-24 h-24 bg-slate-200 rounded-lg flex flex-col items-center justify-center text-[10px] text-center">野生沙公<br>視覺強烈</div>
+                    <div class="flex-shrink-0 w-24 h-24 bg-slate-200 rounded-lg flex flex-col items-center justify-center text-[10px] text-center">東北角小卷<br>鮮甜保證</div>
+                    <div class="flex-shrink-0 w-24 h-24 bg-slate-200 rounded-lg flex flex-col items-center justify-center text-[10px] text-center">活白蝦<br>每日直送</div>
+                </div>
+            </div>
 
-<div class="section-header section-afternoon">🌙 下午送貨路線 (指定順序)</div>
+            <!-- 策略 5 -->
+            <div class="card bg-white p-6 rounded-xl shadow-md border border-slate-100">
+                <div class="text-blue-600 text-2xl mb-2">📸</div>
+                <h3 class="text-xl font-bold mb-3">五、平日打卡擴散</h3>
+                <p class="text-slate-600 text-sm mb-4">低成本獲取社群曝光。</p>
+                <div class="bg-green-50 p-4 rounded-lg border border-green-100">
+                    <p class="text-sm"><b>活動：</b>平日打卡送精緻小菜</p>
+                    <p class="text-xs text-slate-500 mt-1">贈送：海菜、花枝丸、涼拌小卷。成本控制內，口碑傳播外。</p>
+                </div>
+            </div>
 
-<div class="card pm-card">
-    <div class="step"><span>PM 第 1 站</span><span>正濱</span></div>
-    <div class="name">江小姐</div>
-    <div class="address">基隆市中正區正濱路116巷7弄14號3樓</div>
-    <div class="btn-group">
-        <a href="tel:0982300069" class="btn btn-call">📞 撥打電話</a>
-        <a href="https://www.google.com/maps/search/?api=1&query=基隆市中正區正濱路116巷7弄14號3樓" class="btn btn-map">📍 導航前往</a>
-    </div>
-</div>
+            <!-- 策略 6 -->
+            <div class="card bg-white p-6 rounded-xl shadow-md border border-slate-100">
+                <div class="text-blue-600 text-2xl mb-2">🏢</div>
+                <h3 class="text-xl font-bold mb-3">六、攻佔公司聚餐市場</h3>
+                <p class="text-slate-600 text-sm mb-4">主打尾牙、春酒、部門聚餐。</p>
+                <div class="space-y-2">
+                    <div class="flex justify-between text-xs items-center bg-slate-50 p-2 rounded">
+                        <span>10人桌菜套餐</span>
+                        <span class="font-bold">$5000 / $6000 / $8000</span>
+                    </div>
+                    <p class="text-[10px] text-slate-500 italic">★ 重點宣傳：包廂環境、專屬停車、多樣化酒水。</p>
+                </div>
+            </div>
 
-<div class="card pm-card">
-    <div class="step"><span>PM 第 2 站</span><span>觀海街</span></div>
-    <div class="name">徐樂友</div>
-    <div class="address">基隆市中正區觀海街76號1樓</div>
-    <div class="btn-group">
-        <a href="tel:0916578618" class="btn btn-call"><span class="phone-label">1</span>📞 撥打</a>
-        <a href="tel:0988013378" class="btn btn-call"><span class="phone-label">2</span>📞 撥打</a>
-        <a href="https://www.google.com/maps/search/?api=1&query=基隆市中正區觀海街76號1樓" class="btn btn-map">📍 導航</a>
-    </div>
-</div>
+            <!-- 策略 7 -->
+            <div class="card bg-white p-6 rounded-xl shadow-md border border-slate-100 md:col-span-2">
+                <div class="text-blue-600 text-2xl mb-2">✨</div>
+                <h3 class="text-xl font-bold mb-3 text-center">七、打造「招牌爆款菜」</h3>
+                <p class="text-slate-600 text-sm mb-4 text-center">創造「只有海之星吃得到」的差異化餐點。</p>
+                <div class="grid grid-cols-3 gap-4">
+                    <div class="text-center">
+                        <div class="w-full aspect-square bg-blue-100 rounded-full mb-2 flex items-center justify-center text-2xl">🦀</div>
+                        <p class="text-xs font-bold">巨無霸沙公</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="w-full aspect-square bg-blue-100 rounded-full mb-2 flex items-center justify-center text-2xl">🦞</div>
+                        <p class="text-xs font-bold">霸氣龍蝦粥</p>
+                    </div>
+                    <div class="text-center">
+                        <div class="w-full aspect-square bg-blue-100 rounded-full mb-2 flex items-center justify-center text-2xl">🍤</div>
+                        <p class="text-xs font-bold">特色避風塘</p>
+                    </div>
+                </div>
+            </div>
+        </div>
 
-<div class="card pm-card">
-    <div class="step"><span>PM 第 3 站</span><span>新豐街 (碧海晴天)</span></div>
-    <div class="name">李谷瀚</div>
-    <div class="address">基隆市新豐街288號7樓碧海晴天社區</div>
-    <div class="btn-group">
-        <a href="tel:0920148986" class="btn btn-call"><span class="phone-label">1</span>📞 撥打</a>
-        <a href="tel:0987833094" class="btn btn-call"><span class="phone-label">2</span>📞 撥打</a>
-        <a href="https://www.google.com/maps/search/?api=1&query=基隆市新豐街288號7樓碧海晴天社區" class="btn btn-map">📍 導航</a>
-    </div>
-</div>
+        <!-- 經營目標結語 -->
+        <section class="mt-12 text-center bg-slate-900 text-white p-8 rounded-2xl">
+            <h2 class="text-2xl font-bold mb-4">執行展望</h2>
+            <p class="text-slate-300 mb-6">海之星具備絕佳的地點與知名度，只要透過「結構化平日策略」，將能有效縮短淡旺季落差，建立穩健的營運基礎。</p>
+            <div class="inline-block px-6 py-3 bg-blue-600 rounded-full font-bold text-lg hover:bg-blue-500 cursor-pointer">
+                準備好啟動「倍增計畫」
+            </div>
+        </section>
 
-<div class="card pm-card">
-    <div class="step"><span>PM 第 4 站</span><span>新豐街</span></div>
-    <div class="name">李峰誠</div>
-    <div class="address">基隆市中正區新豐街333巷2號1樓</div>
-    <div class="btn-group">
-        <a href="tel:0920080919" class="btn btn-call">📞 撥打電話</a>
-        <a href="https://www.google.com/maps/search/?api=1&query=基隆市中正區新豐街333巷2號1樓" class="btn btn-map">📍 導航前往</a>
-    </div>
-</div>
+    </main>
 
-<div class="card pm-card">
-    <div class="step"><span>PM 第 5 站</span><span>深溪路</span></div>
-    <div class="name">歐陽秉昕</div>
-    <div class="address">基隆市信義區深溪路36巷82號6樓</div>
-    <div class="btn-group">
-        <a href="tel:0912145797" class="btn btn-call"><span class="phone-label">1</span>📞 撥打</a>
-        <a href="tel:0936166585" class="btn btn-call"><span class="phone-label">2</span>📞 撥打</a>
-        <a href="https://www.google.com/maps/search/?api=1&query=基隆市信義區深溪路36巷82號6樓" class="btn btn-map">📍 導航</a>
-    </div>
-</div>
-
-<div class="card pm-card">
-    <div class="step"><span>PM 第 6 站</span><span>深澳坑</span></div>
-    <div class="name">江瑞華</div>
-    <div class="address">基隆市信義區深奧坑路204號</div>
-    <div class="btn-group">
-        <a href="tel:0910219697" class="btn btn-call"><span class="phone-label">1</span>📞 撥打</a>
-        <a href="tel:0933224199" class="btn btn-call"><span class="phone-label">2</span>📞 撥打</a>
-        <a href="https://www.google.com/maps/search/?api=1&query=基隆市信義區深奧坑路204號" class="btn btn-map">📍 導航</a>
-    </div>
-</div>
-
-<div class="card pm-card">
-    <div class="step"><span>PM 第 7 站</span><span>瑞芳市區</span></div>
-    <div class="name">胡志強</div>
-    <div class="address">新北市瑞芳區三爪子坑路13巷141號2樓</div>
-    <div class="btn-group">
-        <a href="tel:0981711720" class="btn btn-call"><span class="phone-label">1</span>📞 撥打</a>
-        <a href="tel:0970800768" class="btn btn-call"><span class="phone-label">2</span>📞 撥打</a>
-        <a href="https://www.google.com/maps/search/?api=1&query=三爪子坑路新峰里13巷141號2樓" class="btn btn-map">📍 導航</a>
-    </div>
-</div>
-
-<div class="card pm-card">
-    <div class="step"><span>PM 第 8 站</span><span>安樂區</span></div>
-    <div class="name">陳麗真</div>
-    <div class="address">基隆市安樂區基金一路121巷19之4號1樓</div>
-    <div class="btn-group">
-        <a href="tel:0936857199" class="btn btn-call"><span class="phone-label">1</span>📞 撥打</a>
-        <a href="tel:0925052890" class="btn btn-call"><span class="phone-label">2</span>📞 撥打</a>
-        <a href="https://www.google.com/maps/search/?api=1&query=基隆市安樂區基金一路121巷19之4號一樓" class="btn btn-map">📍 導航</a>
-    </div>
-</div>
-
-<div class="card pm-card">
-    <div class="step"><span>PM 第 9 站</span><span>瑞芳十分 (終點)</span></div>
-    <div class="name">潘靜</div>
-    <div class="address">瑞芳區靜安路四段90號</div>
-    <div class="btn-group">
-        <a href="tel:0912899616" class="btn btn-call"><span class="phone-label">1</span>📞 撥打</a>
-        <a href="tel:0932262603" class="btn btn-call"><span class="phone-label">2</span>📞 撥打</a>
-        <a href="https://www.google.com/maps/search/?api=1&query=瑞芳區靜安路四段90號" class="btn btn-map">📍 導航</a>
-    </div>
-</div>
+    <footer class="py-8 text-center text-slate-400 text-sm">
+        <p>© 2024 海之星熱炒 策略經營提案</p>
+    </footer>
 
 </body>
 </html>
